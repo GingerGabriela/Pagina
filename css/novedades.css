@@ -121,28 +121,6 @@ h1,h2,h3,h4{
 	color:#8B0000;;
 }
 
-/*Estilos de banner*/
-.banner{
-	margin-top:-60px;
-	position:relative;
-	z-index:-1000;
-	margin-bottom:30px;
-}
-.banner .slider{
-	top:150%;
-}
-.banner .contenedor{
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translateX(-50%) translateY(-50%);
-	width:100%;
-	color:#fff;
-	text-align:center;
-}
-.banner_txt{
-	display:none;
-}
 /*Estilos de imagenes de info*/
 .info_columna{
 	background:#8B0000;
@@ -292,35 +270,6 @@ h1,h2,h3,h4{
 	
 }
 
-/* ***** CONFIGURACION IMAGENES ***** */
-.slider{
-	width: 100%; /*Ancho de la imagen y centrado*/
-	margin: 0;
-	overflow: hidden; /*Ocultar imagenes dentro de la primera*/
-	
-}
-
-.slider ul {
-	display: flex; /*Imagenes flexibles*/
-	padding: 0; /*Quitar el relleno que queda en la imagen*/
-	width: 300%; /*Tamaño*/
-	
-	animation: cambio 20s infinite alternate; /*Animacion para la transicion infinita de
-	imagenes en
-	20s*/
-
-	/*Especie de bucle para que cuando finalice la ultima proyeccion no suba bruscamente*/
-}
-
-.slider img{ /*Tamaño que ocupa la imagen, ancho*/
-	width:100%;
-	height: 500px;
-	border-radius: 10px;
-}
-
-.slider li{ /*Eliminar estilo*/
-	width: 100%; /*Ancho*/
-	list-style: none;
 }
 @keyframes cambio { /*Lapsos de tiempo entre los cambios de imagen*/
 	
@@ -347,6 +296,20 @@ h1,h2,h3,h4{
 }
 
 
+
+/********CONFIGURACION IMAGEN PRINCIPAL*********/
+#contenido img{
+	width: 50%;
+	margin-top: 20px;
+	left: 0;
+	display:block;
+	margin:auto;
+	
+}
+
+
+/********FIN CONFIGURACION IMAGEN PRINCIPAL*********/
+
 /* ***** CONFIGURACION FOOTER ***** */
 
 footer{
@@ -358,97 +321,8 @@ footer{
 	padding: 0px;
 }
 
-/*Inicio del aside*/
-.imagen-aside{
-	position:fixed;
-	bottom:0px; /*Estado de boton , ubicacion*/
-	right:10px;
-	width:30px;
-	height:75px;
-}
-aside{
-	width:20%;
-	height:300px;
-	position:fixed;
-	right:30px;
-	top:300px;
-	color:#fff;
-}
-aside img{
-	border-radius:10px;
-}
-/*--Enlaces de navegador quizas sea util en el futuro
-.enlaces{
-	background:#fff;
-	color:#8B0000;
-}
-aside h3{
-	margin-bottom:20px;
-}
-aside ul{
-	margin-left:40px;
-}
-aside ul li{
-	list-style-image:url("../imagenes/blog.png");
 
-}*/
 
-/*Contacto*/
-.contacto{
-	margin: 0;
-	width: 100%; /*Ancho de pagina*/
-	text-align:center; /*Texto centrado, color fondo  y letras, espacio*/
-	background-color: #696969;
-	color: white;
-	padding: 0px;
-}
-.telefono, .email{
-	width:25px;
-	height:30px;
-	display:block;
-	margin:auto;
-	vertical-align: middle;
-}
 
-/**Aislante css*/
-.img_fachada{
-	width:450;
-	height:350px;
-	display:block;
-	margin:auto;
-	vertical-align:middle;
-	margin-top:40px;
-}
-.img_frigorifico{
-	width:350px;
-	height:300px;
-	display:block;
-	margin:auto;
-	vertical-align:middle;
-	margin-top:40px;
-}
-
-.articuloAislante .paneles{
-	margin-top:25px;
-	color:white;
-	text-align:center;
-	font-size:30px;
-}
-.articuloAislante p{
-	margin-top:25px;
-	color:white;
-	text-align:center;
-	
-}
-
-.articuloAislante h2{
-	margin: 0;
-	width: 100%; /*Ancho de pagina*/
-	text-align:center; /*Texto centrado, color fondo  y letras, espacio*/
-	background-color: #8B0000;
-	color: white;
-	padding: 0px;
-	margin-top:50px;
-}
 
 
