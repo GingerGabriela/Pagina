@@ -82,6 +82,26 @@ h1,h2,h3,h4{
 	padding:0;
 	margin:0;
 }
+
+/*submenu*/
+.submenu{
+	/*position:absolute;*/
+	background:#333333;
+	width:130%;
+	display:none;
+	list-style: none;
+}
+.submenu li a {
+	display:block;
+	padding:15px;
+	color:#fff;
+	font-family:'Open sans';
+	text-decoration:none;
+	
+}
+.menu li:hover .submenu{
+	display:block;
+}
 /*Afecta al menu despegable*/
 .menu_link, .select{
 	display:block;
@@ -90,7 +110,13 @@ h1,h2,h3,h4{
 	text-decoration:none;
 	color:white;
 }
+
 .menu_link:hover{
+	background:white;
+	color:#8B0000;;
+}
+
+.menu_link2:hover{
 	background:white;
 	color:#8B0000;;
 }
