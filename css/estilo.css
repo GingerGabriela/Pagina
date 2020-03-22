@@ -407,10 +407,48 @@ aside ul li{
 	height:30px;
 	display:block;
 	margin:auto;
-	 vertical-align: middle;
+	vertical-align: middle;
 }
 
+/**Aislante css*/
+.img_fachada{
+	width:450;
+	height:350px;
+	display:block;
+	margin:auto;
+	vertical-align:middle;
+	margin-top:40px;
+}
+.img_frigorifico{
+	width:350px;
+	height:300px;
+	display:block;
+	margin:auto;
+	vertical-align:middle;
+	margin-top:40px;
+}
 
+.articuloAislante .paneles{
+	margin-top:25px;
+	color:white;
+	text-align:center;
+	font-size:30px;
+}
+.articuloAislante p{
+	margin-top:25px;
+	color:white;
+	text-align:center;
+	
+}
 
+.articuloAislante h2{
+	margin: 0;
+	width: 100%; /*Ancho de pagina*/
+	text-align:center; /*Texto centrado, color fondo  y letras, espacio*/
+	background-color: #8B0000;
+	color: white;
+	padding: 0px;
+	margin-top:50px;
+}
 
 
