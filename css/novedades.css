@@ -1,0 +1,328 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+body{
+	margin:0; /*para quitar espacio*/
+	font-family:'Open Sans', sans-serif;
+	background:black;
+}
+img{
+	display:block;
+	max-width:100%;
+}
+.logotipo{
+	width:20%;
+	height: 100px;
+	
+	top:20px;
+	left:500px;
+}
+/*Fuente para los titulos gabiiii*/
+h1,h2,h3,h4{
+	font-family:'Yanone-Kaffeesatz', sans-serif;
+	letter-spacing:1.5px 
+}
+.section_titulo{
+	text-align:center;
+	font-size:30px;
+	color:#FBA919;
+}
+.contenedor{
+	margin:auto;
+	width:98%;
+}
+/*Estilos de header*/
+.header{
+	height:60px;
+}
+.header .contenedor{
+	display:flex;
+	justify-content:space-between;
+}
+.logo, .icon-menu{
+	margin:5px;
+	color:#fff;
+}
+.logotipo{
+	display:block;
+	width:120px;
+	height:60px;
+	font-size:38px;
+	line-height:55px;
+	border-radius:5px;
+	margin-left:auto;
+	top:20px;
+	left:55px;
+}
+.icon-menu{
+	display:block;
+	width:40px;
+	height:40px;
+	font-size:38px;
+	background:#FBA919;
+	color:#fff;
+	text-align:center;
+	line-height:45px;
+	border-radius:5px;
+	margin-left:auto;
+	cursor:pointer;/*aparecer el cursor la manito*/
+}
+/*Estilos del menu*/
+.nav{
+	position:absolute;
+	top:60px;
+	left:-100%;/*el menos para que aparezca de lado izquierdo*/
+	width:100%;
+	transition:all 0.4s;
+}
+.mostrar{
+	left:0;
+}
+.menu{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+/*submenu*/
+.submenu{
+	/*position:absolute;*/
+	background:#333333;
+	width:130%;
+	display:none;
+	list-style: none;
+}
+.submenu li a {
+	display:block;
+	padding:15px;
+	color:#fff;
+	font-family:'Open sans';
+	text-decoration:none;
+	
+}
+.menu li:hover .submenu{
+	display:block;
+}
+/*Afecta al menu despegable*/
+.menu_link, .select{
+	display:block;
+	padding:20px;
+	background:#8B0000;
+	text-decoration:none;
+	color:white;
+}
+
+.menu_link:hover{
+	background:white;
+	color:#8B0000;;
+}
+
+.menu_link2:hover{
+	background:white;
+	color:#8B0000;;
+}
+
+/*Estilos de imagenes de info*/
+.info_columna{
+	background:#8B0000;
+	color:#fff;
+	padding:15px;
+	margin-bottom:80px;
+}
+/*Estilos de curso*/
+
+.cursos_columnas{
+	position:relative;
+	margin-bottom:30px;
+	
+}
+
+.cursos_descripcion{
+	position:absolute;
+	top:0;
+	left:0;
+	color:#fff;
+	background:rgba(0,0,0,0.4);
+	width:60%;
+	height:100%;
+	padding:5px;
+}
+
+.cursos_titulos{
+	font-size:30px;
+	margin:5px 0;
+	
+}
+/*Estilos responsive*/
+@media(min-width:480px){
+	.logo{
+		font-size:40px;
+	}
+	.banner_titulo{
+		font-size:30px;
+		margin:5px 0;
+	}
+	.banner_txt{
+		display:block;
+		font-size:20px;
+		margin:5px 0;
+	}
+	.info, .cursos{
+		/*display:flex; se pone uno a la de otro*/
+		justify-content:space-between;
+		margin-top:-80px;
+	}
+	.info_columna{
+		width:30%;	/*espacio de los articulo*/
+	}
+	.cursos{
+		flex-wrap:wrap;
+		margin-top:0;
+		
+	}
+	.section_titulo{
+		width:100%;
+	}
+	.cursos_titulos{
+		font-size:13px;
+	}
+	.cursos_txt{
+		font-size:9px;
+	}
+	.cursos_columnas{
+		width:48%;
+	}
+	.info_titulo{
+		font-size:15px;
+	}
+	.info.txt{
+		font-size:5px;
+	}
+}
+/*Para table*/
+@media(min-width:768px){
+	.info, .cursos{
+		display:flex; /*se pone uno a la de otro*/
+		justify-content:space-between;
+		margin-top:-80px;
+	}
+	.banner_titulo{
+		font-size:40px;
+	}
+	.cursos_titulos{
+		font-size:25px;
+	}
+	.cursos_txt{
+		font-size:15px;
+	}
+	.info{
+		margin-top:30px;
+	}
+	.info_titulo{
+		font-size:25px;
+	}
+	.info.txt{
+		font-size:15px;
+	}
+}
+/*Tamaño Escritorio*/
+@media(min-width:1024px){
+	.info, .cursos{
+		display:flex; /*se pone uno a la de otro*/
+		justify-content:space-between;
+		margin-top:-80px;
+	}
+	.contenedor{
+		width:1000px;
+	}
+	.nav{
+		position:static;
+		width:auto;
+	}
+	.menu{
+		display:flex;
+	}
+	.menu_link{
+		background:black;
+		font-size:15px;
+		
+	}
+	.icon-menu{
+		display:none;
+	}
+	.select{
+		background:#8B0000;
+		color:#fff;
+	}
+	/*contenido de la imagen*/
+	.banner, .slider{
+		margin:5px;
+	}
+	.banner_titulo{
+		font-size:40px;
+		
+	}
+	.cursos_titulos{
+		font-size:45px;
+	}
+	.info{
+		margin-top:30px;
+	}
+	
+}
+
+}
+@keyframes cambio { /*Lapsos de tiempo entre los cambios de imagen*/
+	
+	/*Primera imagen*/
+	0%{margin-left: 0%;} /*ERROR*/
+	0%{margin-left: 0%;}
+	20% {margin-left: 0%;} /*Del 0 al 20% a nuestra imagen no le pasara nada (Durante 4
+	segundos se mantendra) (20*0.2)*/
+	
+	/*Del 20% al 25& representa el tiempo que tardara en efectuarse la transicion (20 * 0.05= 1 segundo)*/
+	
+	/*Segunda imagen*/
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+	
+	/*Transicion de 4 segundos*/
+	
+	/*Tercera imagen*/
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+	
+	
+	/*Cada imagen se mantendra 4 segundos y el tiempo de transicion es de 1 segundo*/
+}
+
+
+
+/********CONFIGURACION IMAGEN PRINCIPAL*********/
+#contenido img{
+	width: 50%;
+	margin-top: 20px;
+	left: 0;
+	display:block;
+	margin:auto;
+	
+}
+
+
+/********FIN CONFIGURACION IMAGEN PRINCIPAL*********/
+
+/* ***** CONFIGURACION FOOTER ***** */
+
+footer{
+	margin: 0;
+	width: 100%; /*Ancho de pagina*/
+	text-align:center; /*Texto centrado, color fondo  y letras, espacio*/
+	background-color: #8B0000;
+	color: white;
+	padding: 0px;
+}
+
+
+
+
+
+
