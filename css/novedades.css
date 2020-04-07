@@ -298,12 +298,13 @@ h1,h2,h3,h4{
 
 
 /********CONFIGURACION IMAGEN PRINCIPAL*********/
-#contenido img{
-	width: 50%;
-	margin-top: 20px;
-	left: 0;
+.img-nov{
+	width:1000px;
+	height:500px;
 	display:block;
 	margin:auto;
+	vertical-align:middle;
+	margin-top:40px;
 	
 }
 
