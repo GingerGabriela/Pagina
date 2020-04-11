@@ -1,43 +1,82 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 	<head>
 		<meta name="viewport" content="width-device-width, user=scalable=no, initial-scale=1.0,maximun-scale=1.0, minimun-scale=1.0" >
 		<title>Montajes Monorte</title>
-		<link href="../css/estilo.css" rel="stylesheet" type="text/css" />
+		<link href="../css/contacto.css" rel="stylesheet" type="text/css" />
 		<link rel="icon" href="../imagenes/logoEmpresa.png">
 	</head>
+	
 	<body  id="subir">
-		<header class="header">
-			<div class="contenedor">
-				<h1 class="logo"><img class="logotipo" src="../imagenes/logoEmpresa.png" align="left" alt="company logo"></h1>
-				<span class="icon-menu" id="btn-menu"><img class="icono" src="../imagenes/icono.jpg" align="left" alt="company logo"></span>
-				<nav class="nav" id="nav">
-					<ul class="menu">
-						<li class="menu_item"> <a class="menu_link " href="../index.html">Inicio</a></li>
-						<li class="menu_item"> <a class="menu_link" href="">Montajes</a></li>
-						<li class="menu_item"> <a class="menu_link" href="">Docente</a></li>
-						<li class="menu_item"> <a class="menu_link select" href="">Contacto</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		
-		<main class="main">
+		<main>
+			<header class="header">
 			
-		</main>
-		<!--Inicio de Pie de Pagina-->
-		<footer class="footer">
-			<div class="pie-pag">
-				<p>Montajes Monorte | Copyright &copy; 2020 </p>
+				<div class="contenedor">
+				
+					<h1 class="logo"><img class="logotipo" src="../imagenes/logoEmpresa.png" align="left" alt="company logo"></h1>
+					<span class="icon-menu" id="btn-menu"><img class="icono" src="imagenes/icono.jpg" align="left" alt="company logo"></span>
+					<nav class="nav" id="nav">
+						<ul class="menu">
+							<li class="menu_item"> <a class="menu_link " href="../index.html">Inicio</a></li>
+							<li class="menu_item"> <a class="menu_link" href="">Montajes</a>
+								<ul class="submenu">
+									<li><a href="../porfolio/Aislante.html"  class="menu_link2">Panel Aislante</a></li>
+									<li><a href="../porfolio/Zinc.html"  class="menu_link2 ">Zinc</a></li>
+									<li><a href="../porfolio/Policarbonato.html"  class="menu_link2">Policarbonato</a></li>
+								</ul>
+							</li>
+							<li class="menu_item"> <a class="menu_link" href="../porfolio/Novedades.html">Trabajos Realizados</a></li>
+							<li class="menu_item"> <a class="menu_link  select" href=",,/porfolio/contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+					
+				
+				</div>
+			</header>
+		
+			<!--IMAGEN PRINCIPAL-->
+			
+		<div class="banner">
+			<!--<img src="imagenes/portadagrande.png" alt="" class="banner_imag"/>-->
+			<div class="slider"> <!--Etiqueta para la animacion de imagenes-->
+				<img src="../imagenes/contacto.jpg" alt="img_principal" > 
 			</div>
-		</footer>
-		<script src="js/menu.js"></script>
-		 <!--Boton para subir-->
-	<aside>
-		
-		<a href="#subir"><img src="../imagenes/subir.jpg" alt="Subir"></a> 
-		
-	</aside>
+			
+			<div class="contenedor">
+				<h2 class="banner_titulo">Contacta con Nosotros</h2>
+				<p class="banner_txt">No hay nada que nos guste que comenzar un nuevo proyecto. Hagamos algo genial juntos</p>
+			</div>
+		</div>
+			<!--<section id="contacto"> <!--Enlazado a contenido.css desde
+				css/css-ecu-oriente/ecu-oriente.css
+				<img class="img-cont" src="../imagenes/contacto.jpg" alt="img_principal" > 
+			</section>
+			
+-->
+			<section id="blog">
+				<h3>Novedades y Actividades</h3>
+				<div class="sectionContenedor">
+					<article class="contactoArticulo">
+						<img class="img1"src="../imagenes/telefono.jpg">
+						<p >Teléfonos:<p>
+						<p>649974602 - 649974603 - 659767320</p>
+						<img class="img1" src="../imagenes/email.jpg">
+						<p>montajesmonorte@gmail.com</p>
+					</article>	
+					
+					
+			    </div>
+			</section>
+			<!--Inicio de Pie de Pagina-->
+			<footer class="footer">
+				<div class="pie-pag">
+					<p>Montajes Monorte | Copyright &copy; 2020 - Aviso Legal - Política de Privacidad - Política de Cookies </p>
+				
+					
+				</div>
+			</footer>
+		</main>
    <!--Fin de pie de pagina-->
 	</body>
 </html>

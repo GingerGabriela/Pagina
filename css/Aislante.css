@@ -137,7 +137,7 @@ h1,h2,h3,h4{
 	left:50%;
 	transform:translateX(-50%) translateY(-50%);
 	width:100%;
-	color:#fff;
+	color:#CD5C5C;
 	text-align:center;
 }
 .banner_txt{
@@ -251,7 +251,7 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:230px;
+  margin-top:700px;
   color:white;
   margin-left:-110px;
   font-size:30px;
@@ -280,7 +280,7 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:580px;
+  margin-top:1050px;
   color:white;
   margin-left:-110px;/*posicionar el texto*/
   font-size:30px;
@@ -315,9 +315,9 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:940px;
+  margin-top:1420px;
   color:white;
-  margin-left:-110px;/*posicionar el texto*/
+  margin-left:-70px;/*posicionar el texto*/
   font-size:30px;
   color:#B22222;
    font-family: "Times New Roman", Times, serif;
@@ -350,7 +350,7 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:1225px;
+  margin-top:1765px;
   color:white;
   margin-left:-60px;/*posicionar el texto*/
   font-size:30px;
@@ -387,7 +387,7 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:1650px;
+  margin-top:2150px;
   color:white;
   margin-left:-60px;/*posicionar el texto*/
   font-size:30px;
@@ -451,7 +451,7 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:230px;
+  margin-top:700px;
   color:white;
   margin-left:-110px;
   font-size:30px;
@@ -480,7 +480,7 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:230px;
+  margin-top:700px;
   color:white;
   margin-left:230px;/*posicionar el texto*/
   font-size:30px;
@@ -515,7 +515,7 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:580px;
+  margin-top:1060px;
   color:white;
   margin-left:-110px;/*posicionar el texto*/
   font-size:30px;
@@ -550,7 +550,7 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:580px;
+  margin-top:1060px;
   color:white;
   margin-left:270px;/*posicionar el texto*/
   font-size:30px;
@@ -587,7 +587,7 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:950px;
+  margin-top:1430px;
   color:white;
   margin-left:-75px;/*posicionar el texto*/
   font-size:30px;
@@ -661,6 +661,7 @@ h1,h2,h3,h4{
 .div-imagen {
   display:inline-block;
   margin-top:60px;
+  margin-left:30px;
 }
 
 .div-imagen > div {
@@ -669,9 +670,9 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:230px;
+  margin-top:770px;
   color:white;
-  margin-left:70px;
+  margin-left:85px;
   font-size:30px;
   color:#B22222;
    font-family: "Times New Roman", Times, serif;
@@ -698,9 +699,9 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:230px;
+  margin-top:770px;
   color:white;
-  margin-left:400px;/*posicionar el texto*/
+  margin-left:430px;/*posicionar el texto*/
   font-size:30px;
   color:#B22222;
    font-family: "Times New Roman", Times, serif;
@@ -733,15 +734,15 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:230px;
+  margin-top:770px;
   color:white;
-  margin-left:730px;/*posicionar el texto*/
+  margin-left:750px;/*posicionar el texto*/
   font-size:30px;
   color:#B22222;
    font-family: "Times New Roman", Times, serif;
 }
 .desvanecer3{
-	width:310px;
+	width:300px;
   height:300px;
  margin-left:30px;/*separacion*/
 }
@@ -762,7 +763,7 @@ h1,h2,h3,h4{
 .div-imagen4{
   display:inline-block;
   margin-top:60px;
-   
+   margin-left:20px;
 }
 
 .div-imagen4 > div {
@@ -771,9 +772,9 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:580px;
+  margin-top:1120px;
   color:white;
-  margin-left:150px;/*posicionar el texto*/
+  margin-left:170px;/*posicionar el texto*/
   font-size:30px;
   color:#B22222;
    font-family: "Times New Roman", Times, serif;
@@ -808,9 +809,9 @@ h1,h2,h3,h4{
   left:155px;
   z-index:-1;
   padding:10px;
-  margin-top:580px;
+  margin-top:1120px;
   color:white;
-  margin-left:625px;/*posicionar el texto*/
+  margin-left:645px;/*posicionar el texto*/
   font-size:30px;
   color:#B22222;
    font-family: "Times New Roman", Times, serif;
@@ -846,7 +847,7 @@ h1,h2,h3,h4{
 .slider ul {
 	display: flex; /*Imagenes flexibles*/
 	padding: 0; /*Quitar el relleno que queda en la imagen*/
-	width: 500%; /*Tamaño*/
+	width: 300%; /*Tamaño*/
 	
 	animation: cambio 20s infinite alternate; /*Animacion para la transicion infinita de
 	imagenes en
@@ -885,13 +886,13 @@ h1,h2,h3,h4{
 	50%{margin-left: -200%;}
 	70%{margin-left: -200%;}
 	
-	/*Cuarta Imagen*/
+	/*Cuarta Image
 	80%{margin-left:-300%;}
-	100%{margin-left:-300%;}
+	100%{margin-left:-300%;}n*/
 	
-	/*Quinta Imagen*/
+	/*Quinta Imagen
 	105%{margin-left:-400%;}
-	115%{margin-left:-400%;}
+	115%{margin-left:-400%;}*/
 	/*Cada imagen se mantendra 4 segundos y el tiempo de transicion es de 1 segundo*/
 }
 

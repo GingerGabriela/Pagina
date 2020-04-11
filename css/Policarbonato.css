@@ -1192,7 +1192,7 @@ h1,h2,h3,h4{
 .slider ul {
 	display: flex; /*Imagenes flexibles*/
 	padding: 0; /*Quitar el relleno que queda en la imagen*/
-	width: 300%; /*Tamaño*/
+	width: 400%; /*Tamaño*/
 	
 	animation: cambio 20s infinite alternate; /*Animacion para la transicion infinita de
 	imagenes en
@@ -1235,9 +1235,6 @@ h1,h2,h3,h4{
 	80%{margin-left:-300%;}
 	100%{margin-left:-300%;}
 	
-	/*Quinta Imagen*/
-	105%{margin-left:-400%;}
-	115%{margin-left:-400%;}
 	/*Cada imagen se mantendra 4 segundos y el tiempo de transicion es de 1 segundo*/
 }
 

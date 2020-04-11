@@ -4,6 +4,7 @@ body{
 	margin:0; /*para quitar espacio*/
 	font-family:'Open Sans', sans-serif;
 	background:black;
+	
 }
 img{
 	display:block;
@@ -29,6 +30,7 @@ h1,h2,h3,h4{
 .contenedor{
 	margin:auto;
 	width:98%;
+	
 }
 /*Estilos de header*/
 .header{

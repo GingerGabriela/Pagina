@@ -4,6 +4,7 @@ body{
 	margin:0; /*para quitar espacio*/
 	font-family:'Open Sans', sans-serif;
 	background:black;
+	
 }
 img{
 	display:block;
@@ -15,6 +16,11 @@ img{
 	
 	top:20px;
 	left:500px;
+}
+#contacto{
+	margin-top:20px;
+	width:100%;
+	
 }
 /*Fuente para los titulos gabiiii*/
 h1,h2,h3,h4{
@@ -29,6 +35,7 @@ h1,h2,h3,h4{
 .contenedor{
 	margin:auto;
 	width:98%;
+	
 }
 /*Estilos de header*/
 .header{
@@ -121,6 +128,42 @@ h1,h2,h3,h4{
 	color:#8B0000;;
 }
 
+/*Estilos de banner*/
+.banner{
+	margin-top:-60px;
+	position:relative;
+	z-index:-1000;
+	margin-bottom:30px;
+}
+.banner .slider{
+	top:150%;
+}
+.banner_titulo{
+	font-family: "Homer Simpson UI";
+	
+}
+.banner .contenedor{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+	width:100%;
+	color:back;
+	text-align:center;
+}
+.banner_txt{
+	display:none;
+	font-family: "Homer Simpson UI";
+	font-size:50px;
+}
+/*Seciones de contacto*/
+.contactoArticulo{
+	margin-left:830px;
+	color:#fff;
+}
+.img1{
+	width:80px;
+}
 /*Estilos de imagenes de info*/
 .info_columna{
 	background:#8B0000;
@@ -128,6 +171,32 @@ h1,h2,h3,h4{
 	padding:15px;
 	margin-bottom:80px;
 }
+/*Mas infomacion pestaña*/
+.info_columna a{
+	display:block;
+	width:130px;
+	color:#fff;
+	text-decoration:none;
+	padding:7px;
+	margin-top:10px;
+	border:3px solid #fff;
+	
+}
+
+/* ***** CONFIGURACION IMAGENES ***** */
+.slider{
+	width: 100%; /*Ancho de la imagen y centrado*/
+	
+}
+.slider img{ /*Tamaño que ocupa la imagen, ancho*/
+	width:100%;
+	height: 500px;
+	border-radius: 10px;
+	margin-top:20px;
+
+}
+
+
 /*Estilos de curso*/
 
 .cursos_columnas{
@@ -152,6 +221,15 @@ h1,h2,h3,h4{
 	margin:5px 0;
 	
 }
+.cursos a{
+	display:block;
+	width:130px;
+	color:#fff;
+	text-decoration:none;
+	padding:7px;
+	margin-top:10px;
+	border:3px solid #fff;
+}
 /*Estilos responsive*/
 @media(min-width:480px){
 	.logo{
@@ -175,7 +253,7 @@ h1,h2,h3,h4{
 		width:30%;	/*espacio de los articulo*/
 	}
 	.cursos{
-		flex-wrap:wrap;
+		flex-wrap:wrap;/*se pone para ir uno debajo del otro*/
 		margin-top:0;
 		
 	}
@@ -270,23 +348,9 @@ h1,h2,h3,h4{
 	
 }
 
-}
-/* ***** CONFIGURACION IMAGENES ***** */
-.slider{
-	width: 100%; /*Ancho de la imagen y centrado*/
-	
-}
-.slider img{ /*Tamaño que ocupa la imagen, ancho*/
-	width:100%;
-	height: 500px;
-	border-radius: 10px;
-	margin-top:50px;
-
-}
 
 
 
-/********FIN CONFIGURACION IMAGEN PRINCIPAL*********/
 
 /* ***** CONFIGURACION FOOTER ***** */
 
@@ -299,8 +363,14 @@ footer{
 	padding: 0px;
 }
 
-
-
-
+.img-nov{
+	width:1000px;
+	height:500px;
+	display:block;
+	margin:auto;
+	vertical-align:middle;
+	margin-top:40px;
+	
+}
 
 
