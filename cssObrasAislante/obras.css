@@ -1,0 +1,187 @@
+body{
+	margin:0; /*para quitar espacio*/
+	font-family:'Open Sans', sans-serif;
+	background:black;
+}
+h1{
+	color:white;
+	text-align:center;
+}
+.galeria {
+	width:90%;
+	margin:auto;
+	padding:20px;
+	list-style:none;
+	box-sizing:border-box;
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:space-around;
+}
+.galeria li{
+	margin:5px;
+}
+.galeria img{
+	width:150px;
+	height:100px;
+}
+img{
+	display:block;
+	max-width:100%;
+}
+.logotipo{
+	width:20%;
+	height: 100px;
+	
+	top:20px;
+	left:500px;
+}
+/*Estilos del modal*/
+.modal{
+	position:fixed;
+	background:rgba(0,0,0,0.8);
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.modal h3{
+	color:#fff;
+	font-size:30px;
+	text-align:center;
+	margin: 15px 0;
+}
+.imagen{
+	width:100%;
+	height:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.imagen a{
+	color:#fff;
+	font-size:40px;
+	text-decoration:none;
+	margin:0 20px;
+}
+.imagen a:nth-child(2){
+	margin:0;
+	height:100%;
+	flex-shrunk:2;
+	
+}
+.imagen img{
+	width:500px;
+	height:100%;
+	max-width:100%;
+	border:7px solid #fff;
+	box-sizing:border-box;
+}
+.cerrar{
+	display:block;
+	background:#fff;
+	width:25px;
+	height:25px;
+	margin:15px auto;
+	text-align:center;
+	text-decoration:none;
+	font-size:25px;
+	color:black;
+	padding:5px;
+	border-radius:50%;
+	line-height:25px;
+}
+
+
+/*Otra parcti
+*, *:before, *:after{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+.root{
+	padding:15px;
+}
+.gallery{
+	display:grid;
+	grid-template-colums:auto;
+	grid-gap:5px 5px;/*agregandp spacios
+	font-size:16px;
+	max-width:1200px;
+	margin:auto;
+}
+.gallery-item{
+	position:relative;
+	cursor:pointer;/*aparece manito
+	
+}
+.gallery_img{
+	display:block;
+	max-width:100%;
+	border-radius:5px;
+	
+}
+.gallery-item:before, .gallery-item:after{
+	position:absolute;
+}
+.gallery-item:before{
+	color:#fff;
+	/*font-size:1.5
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.gallery-item:after{
+	display:block;
+	content:'';
+	top:50%;
+	left:50%;
+	botton:50%;
+	rigth:50%;
+	background-color:rgba(0,0,0, .4);
+}
+.gallery-item:hover:after{
+	top:0;
+	left:0;
+	botton:0;
+	rigth:0;
+}
+
+/*ligh
+.gallery-ligh{
+	position:fixed;
+	top:0;
+	left:0;
+	botton:0;
+	rigth:0;
+	background-color:rgba(0,0,0, .8);
+	font-size:16px;
+	padding:0 15px;
+	display:flex;
+}
+*/
+
+@media screen and(min-width:576px){
+	
+	
+}
+@media screen and(min-width:768px){
+	
+	
+}
+
+@media screen and(min-width:992px){
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
