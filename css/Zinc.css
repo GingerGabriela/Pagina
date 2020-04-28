@@ -243,6 +243,7 @@ h1,h2,h3,h4{
 .div-imagen {
   display:inline-block;
   margin-top:60px;
+  margin-left:10px;
 }
 
 .div-imagen > div {
@@ -274,7 +275,7 @@ h1,h2,h3,h4{
 .div-imagen2 {
   display:inline-block;
   margin-top:60px;
-   
+   margin-left:10px;
 }
 
 .div-imagen2 > div {
@@ -291,7 +292,7 @@ h1,h2,h3,h4{
    font-family: "Times New Roman", Times, serif;
 }
 .desvanecer2{
-	width:380px;
+	width:450px;
   height:280px;
  margin-left:0px;/*separacion*/
 }
@@ -302,7 +303,7 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  width:380px;
+  width:450px;
   height:280px;
 }
 /*3*/
@@ -576,8 +577,8 @@ h1,h2,h3,h4{
   padding:10px;
   margin-top:760px;
   color:white;
-  margin-left:160px;
-  font-size:30px;
+  margin-left:100px;
+  font-size:25px;
   color:#B22222;
    font-family: "Times New Roman", Times, serif;
 }

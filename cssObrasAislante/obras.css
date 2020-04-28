@@ -176,7 +176,333 @@ img{
 }
 
 
+/*Copia de remates antiguos*/
 
+@font-face
+{
+   font-family: "Dungeon";
+ /*  src: url("../fuentes/DUNGRG__.eot");
+   src: url("../fuentes/DUNGRG__.eot?#amocristalab") format("embedded-opentype"),
+        url("../fuentes/DUNGRG__.woff") format("woff"),
+        url("../fuentes/DUNGRG__.ttf") format("truetype"),
+        url("../fuentes/DUNGRG__.svg#IDdelafuente") format("svg");*/
+}
+h2{
+	color:white;
+	text-align:center;
+	font-size:50px;
+	font-family: "Homer Simpson UI";
+}
+*{
+    padding: 0;
+	margin: 0;
+	
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	background-image:url("../imagenes/portada.jpg");
+}
+
+section{
+	margin: 0.5em;
+	padding: 3em;
+	
+}
+article{
+	margin: 1em;
+	text-align: justify;
+	font-size: 125%;
+	background-color: gold;
+	padding: 1em;
+	border-radius: 2.5px 5px;
+}
+p{
+	/*sangrado primera linea*/
+	text-indent: 40px;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.contenedor-display{
+	display:block;
+	margin: 0.5em auto;
+	position:relative;
+	width:50% ;
+
+}
+/*.mySlides {
+	border:black 10px solid;
+	border-radius : 2em;
+	height: auto;
+	width:	450px;
+	height:450px;
+	margin: auto;
+	border: black 5px solid;
+}
+.slideIzquierdo{
+	position:absolute;
+	top: 50%;
+	left: 0;
+	background-color:black;
+	color:white;
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap
+}
+.slideDerecho{
+	position:absolute;
+	top: 50%;
+	left:407px;
+	background-color:black;
+	color:white;
+	right: 0em;
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	overflow:hidden;
+	text-decoration:none;
+	cursor:pointer;
+	white-space:nowrap;
+}*/
+.slideIzquierdo:hover , .slideDerecho:hover{
+		color: 	#000 !important;
+		background-color: #ccc !important;
+}
+
+
+.fotos-juegos-de-mesa{
+	width: 30%;
+	margin: 5px;
+}
+
+.seccion-descripcion-juegos-de-mesa{
+	display: flex;
+	flex-direction: column;
+
+}
+form{
+	margin: 0 15em;
+}
+fieldset{
+	padding: 0.5em;
+}
+
+
+footer{
+	/*El clear both sirve para que no afecte el float en este párrafo, así no se mete el aside en el footer*/
+	clear : both;
+	margin: 1em 0;
+	padding: 1em;
+}
+.fotos_redes{
+	width: 1.5em;
+	float: right;
+	margin: 0.1em;
+}
+/*Estilo Reponsive*/
+@media(min-width:480px){
+	.mySlides {
+	border:black 10px solid;
+	border-radius : 2em;
+	width:	400px;
+	height:450px;
+	margin-left: -90px;
+	border: black 5px solid;
+}
+.slideIzquierdo{
+	position:absolute;
+	top: 50%;
+	left: -90px;
+	background-color:black;
+	color:white;
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	
+}
+.slideDerecho{
+	position:absolute;
+	top: 50%;
+	left:267px;
+	background-color:black;
+	color:white;
+	right: 0em;
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	overflow:hidden;
+	text-decoration:none;
+	cursor:pointer;
+	white-space:nowrap;
+}
+}
+/*******************************************************/
+/*Para Tablet*/
+@media(min-width:768px){
+	.mySlides {
+	border:black 10px solid;
+	border-radius : 2em;
+	width:	450px;
+	height:500px;
+	margin:auto;
+	border: black 5px solid;
+}
+.slideIzquierdo{
+	position:absolute;
+	top: 50%;
+	left: 0px;
+	background-color:black;
+	color:white;
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	
+}
+.slideDerecho{
+	position:absolute;
+	top: 50%;
+	left:407px;
+	background-color:black;
+	color:white;
+	right: 0em;
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	overflow:hidden;
+	text-decoration:none;
+	cursor:pointer;
+	white-space:nowrap;
+}
+	
+	
+}
+/*******************************************************/
+/*Para Escritprio*/
+@media(min-width:824px){
+	.mySlides {
+	border:black 10px solid;
+	border-radius : 2em;
+	width:	500px;
+	height:500px;
+	margin:auto;
+	border:black 5px solid;
+}
+.slideIzquierdo{
+	position:absolute;
+	top: 50%;
+	left: 60px;
+	background-color:black;
+	color:white;
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	
+}
+.slideDerecho{
+	position:absolute;
+	top: 50%;
+	left:520px;
+	background-color:black;
+	color:white;
+	right: 0em;
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	overflow:hidden;
+	text-decoration:none;
+	cursor:pointer;
+	white-space:nowrap;
+}
+/*Primer Ejemplo*/
+/*
+.contenedor-display {
+width: 300px;
+margin: 0 auto;
+}
+.mySlides{
+height: 200px;
+width: 600px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.mySlides:hover {
+height: 266px;
+width: 800px;
+margin: -50px;
+}*/
+
+/*Segundo Ejemplo
+.mySlides {
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
+*/
+
+/*Tercer Ejemplo*/
+/*.mySlides{
+	-webkit-transition:all .9s ease; /* Safari y Chrome 
+-moz-transition:all .9s ease; /* Firefox 
+-o-transition:all .9s ease; /* IE 9 
+-ms-transition:all .9s ease; /* Opera 
+width:100%;
+}
+.mySlides:hover img {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+
+	
+.mySlides {
+-webkit-transition:all 1.9s ease;
+-moz-transition:all 1.9s ease;
+-o-transition:all 1.9s ease;
+-ms-transition:all 1.9s ease;
+width:100%;
+}
+*/
+
+
+}
 
 
 

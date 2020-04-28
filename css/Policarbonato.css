@@ -340,8 +340,8 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
- width:460px;
-  height:300px;
+ width:450px;
+  height:250px;
 }
 
 /*4*/
@@ -378,8 +378,8 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  width:440px;
-  height:300px;
+  width:450px;
+  height:250px;
 }
 /*5*/
 .div-imagen5{
@@ -416,7 +416,7 @@ h1,h2,h3,h4{
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
   width:450px;
-  height:300px;
+  height:200px;
 }
 /*6*/
 .div-imagen6{
@@ -452,8 +452,8 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  width:440px;
-  height:300px;
+  width:450px;
+  height:275px;
 }
 /*7*/
 .div-imagen7{
@@ -490,7 +490,7 @@ h1,h2,h3,h4{
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
   width:450px;
-  height:300px;
+  height:200px;
 }
 /*6*/
 .div-imagen8{
@@ -527,7 +527,7 @@ h1,h2,h3,h4{
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
   width:455px;
-  height:300px;
+  height:265px;
 }
 }
 /*Para table*/
@@ -621,7 +621,7 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
- width:350px;
+ width:360px;
   height:300px;
 }
 /*3*/
@@ -656,8 +656,8 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
- width:460px;
-  height:300px;
+ width:420px;
+  height:250px;
 }
 
 /*4*/
@@ -731,8 +731,8 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  width:450px;
-  height:300px;
+  width:410px;
+  height:200px;
 }
 /*6*/
 .div-imagen6{
@@ -768,7 +768,7 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  width:300px;
+  width:360px;
   height:275px;
 }
 /*7*/
@@ -806,7 +806,7 @@ h1,h2,h3,h4{
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
   width:400px;
-  height:300px;
+  height:200px;
 }
 /*6*/
 .div-imagen8{
@@ -843,7 +843,7 @@ h1,h2,h3,h4{
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
   width:355px;
-  height:260px;
+  height:265px;
 }
 }
 /*Tamaño Escritorio*/
@@ -989,8 +989,8 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
- width:460px;
-  height:300px;
+ width:450px;
+  height:250px;
 }
 
 /*4*/
@@ -1027,8 +1027,8 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  width:440px;
-  height:300px;
+  width:450px;
+  height:250px;
 }
 /*5*/
 .div-imagen5{
@@ -1065,7 +1065,7 @@ h1,h2,h3,h4{
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
   width:450px;
-  height:300px;
+  height:200px;
 }
 /*6*/
 .div-imagen6{
@@ -1101,8 +1101,8 @@ h1,h2,h3,h4{
   -o-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  width:440px;
-  height:300px;
+  width:450px;
+  height:275px;
 }
 /*7*/
 .div-imagen7{
@@ -1288,7 +1288,7 @@ aside ul li{
 
 /*Contacto*/
 .contacto{
-	margin: 0;
+	margin-top: 40px;
 	width: 100%; /*Ancho de pagina*/
 	text-align:center; /*Texto centrado, color fondo  y letras, espacio*/
 	background-color: #696969;
