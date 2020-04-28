@@ -137,7 +137,7 @@ h1,h2,h3,h4{
 	position:absolute;
 	top:50%;
 	left:50%;
-	transform:translateX(-50%) translateY(-50%);
+	transform:translateX(-50%) translateY(-50%);*/
 	width:100%;
 	color:#fff;
 	text-align:center;
@@ -164,12 +164,15 @@ h1,h2,h3,h4{
 	
 }
 /*Estilos de curso*/
-
+.cursos_img{
+	border-radius:45px;
+}
 .cursos_columnas{
 	position:relative;
 	margin-bottom:30px;
-	
-}
+	margin-top:50px;
+	margin-left:50px;
+	}
 
 .cursos_descripcion{
 	position:absolute;
@@ -187,15 +190,7 @@ h1,h2,h3,h4{
 	margin:5px 0;
 	
 }
-.cursos a{
-	display:block;
-	width:130px;
-	color:#fff;
-	text-decoration:none;
-	padding:7px;
-	margin-top:10px;
-	border:3px solid #fff;
-}
+
 /*Estilos responsive*/
 @media(min-width:480px){
 	.logo{
