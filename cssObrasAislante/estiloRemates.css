@@ -10,6 +10,12 @@ body{
 	background:#292928;
 	
 }
+p{
+	color:#fff;
+	font-size:45px;
+	margin-top:20px;
+	margin-left:540px;
+}
 img{
 	width:300px;
 	height:290px;

@@ -90,6 +90,8 @@ h1,h2,h3,h4{
 	margin:0;
 }
 
+
+
 /*submenu*/
 .submenu{
 	/*position:absolute;*/
@@ -224,7 +226,7 @@ h1,h2,h3,h4{
 	border:3px solid #fff;
 }
 /*Estilos responsive*/
-@media(min-width:480px){
+@media(min-width:320px){
 	.logo{
 		font-size:40px;
 	}
@@ -268,6 +270,15 @@ h1,h2,h3,h4{
 	.info.txt{
 		font-size:5px;
 	}
+	.contactoArticulo{
+		/*margin-top:0px;
+		margin-left:30px;*/
+		font-size-adjust:20px;
+		color:#fff;
+	}
+	.img1{
+		width:10px;
+	}
 }
 /*Para table*/
 @media(min-width:768px){
@@ -293,6 +304,14 @@ h1,h2,h3,h4{
 	}
 	.info.txt{
 		font-size:15px;
+	}
+	.contactoArticulo{
+		margin-top:0px;
+		margin-left:230px;
+		color:#fff;
+	}
+	.img1{
+		width:60px;
 	}
 }
 /*Tamaño Escritorio*/
@@ -338,14 +357,14 @@ h1,h2,h3,h4{
 	.info{
 		margin-top:30px;
 	}
-	/***Ajustar tamaño del contacto Mapa*/
+	/***Ajustar tamaño del contacto Mapa
 	.mapa{
 		margin-top:50px;
 		margin-left:60px;
-	}
+	}*/
 	/*Seciones de contacto*/
 	.contactoArticulo{
-		margin-top:-350px;
+		margin-top:40px;
 		margin-left:830px;
 		color:#fff;
 	}
